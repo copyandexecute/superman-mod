@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "superman",
+  "version": "${version}",
+  "name": "Superman Mod",
+  "description": "Superman",
+  "authors": [
+    "NoRiskk"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "issues": "https://example.com/",
+    "sources": "https://example.com/"
+  },
+  "license": "GPLv3+",
+  "icon": "assets/superman/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "de.hglabor.superman.Manager"
+      }
+    ],
+    "server": [
+      {
+        "adapter": "kotlin",
+        "value": "de.hglabor.superman.Manager"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "de.hglabor.superman.Manager"
+      }
+    ]
+  },
+  "mixins": [
+    "superman.mixins.json"
+  ],
+  "accessWidener": "superman.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14",
+    "minecraft": "1.20.x",
+    "java": ">=17",
+    "fabric-language-kotlin": "*",
+    "fabric": "*",
+    "silk-core": "*"
+  }
+}
