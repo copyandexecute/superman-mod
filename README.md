@@ -1,5 +1,5 @@
 # TODO
-- [ ] Cape
-- [ ] Xray
+- [x] Cape
+- [x] Xray
 - [ ] Speed Fly Modifier FOV
-- [ ] Superman Items
+- [x] Superman Items
